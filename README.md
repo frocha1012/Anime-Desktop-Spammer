@@ -1,39 +1,43 @@
-# Lain Spammer (Lain.EXE)
 
-A fun little harmless project that spawns animated Lain gifs all over your screen — great for trolling your friends or just unleashing the wired energy of your desktop.
+# Anime Pop-Up Spammer
 
-## 🔥 What It Does
+A fun and completely harmless prank app that spawns animated character GIFs around your screen. Each version is themed after a different anime character, and you can run them individually to experience the chaos.
 
-- Spawns 2 animated transparent Lains every second.
-- Click on any Lain to spawn even more.
-- Caps at 100 Lains to avoid total chaos (or maybe not 😉).
-- Press `Esc` at any time to close all windows instantly.
+## 🎮 What It Does
 
-## ✅ Features
+- Spawns 2 animated characters every second.
+- Clicking on any character spawns more.
+- Automatically stops at 100 characters to avoid freezing your PC.
+- Press `Esc` at any time to instantly close all windows.
 
-- Runs as a single `.exe` (no install needed)
-- Transparent GIF support (no black backgrounds)
-- Small footprint & CPU-safe
-- Each EXE is themed after a different Lain character
+## 📦 What's Included
+
+Each subfolder (e.g., `lain-iwakura`, `rei-ayanami`, etc.) contains:
+- A themed `.exe` for that character (inside `dist/`)
+- The Python source code used to build it
+- An icon and any extra resources
 
 ## 🚀 How to Use
 
-1. Download your favorite character's `.exe` from the [Releases](https://github.com/YOUR_USERNAME/YOUR_REPO/releases) tab.
-2. Run it. That's it.
-3. Watch as your screen fills with animated Lains.
-4. Press `Esc` to make it stop.
+1. Go to the [Releases](https://github.com/YOUR_USERNAME/YOUR_REPO/releases) tab.
+2. Download the `.exe` file for your favorite character.
+3. Run it and watch your screen fill up with pop-up versions of them.
+4. Press `Esc` to clean it all up.
 
-## ⚠️ Notes
+## 🛡 Harmless Fun
 
-- This app is totally harmless (no file changes, no registry edits).
-- Some antivirus software may warn you about `.exe` files from the internet — feel free to build it yourself from source!
-- Do not run 2 versions at the same time unless you're ready for chaos.
+- No files are modified, no registry entries made.
+- No internet calls after start (except to fetch the GIF if using online links).
+- Good for laughs, not for malware.
 
-## 🛠 Want to Build Your Own?
+## 🛠 Want to Make Your Own Character?
 
-Clone the repo and run:
-
+1. Copy one of the folders (e.g., `rei-ayanami`) as a template.
+2. Replace the icon (`.ico`) and update the GIF URL in the `.py` file.
+3. Run:
 ```bash
 pip install pyqt5 requests
-python lain.py
-python rei.py
+pyinstaller --onefile --noconsole --icon=your_icon.ico your_script.py
+Done! Your new prank .exe is ready.
+
+Made for fun. Troll responsibly 😎
