@@ -6,7 +6,7 @@ from PyQt5.QtCore import Qt, QTimer, QPoint, QBuffer, QByteArray
 from PyQt5.QtGui import QMovie
 from PyQt5.QtWidgets import QApplication, QLabel, QWidget
 
-GIF_URL = "https://i.imgur.com/hn7B0iE.gif"
+GIF_URL = "https://i.imgur.com/5QjKIJb.gif"
 MAX_LAINS = 100
 
 windows = []
