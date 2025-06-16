@@ -1,4 +1,4 @@
-('C:\\Users\\froch\\OneDrive\\Desktop\\meme\\lain-spammer\\build\\lain\\PYZ-00.pyz',
+('C:\\Users\\froch\\OneDrive\\Desktop\\meme\\spammer\\lain-iwakura\\build\\lain\\PYZ-00.pyz',
  [('PyQt5',
    'C:\\Users\\froch\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\__init__.py',
    'PYMODULE'),
